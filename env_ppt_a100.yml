@@ -1,0 +1,31 @@
+name: ppt_a100
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.23
+  - numpy=1.21.5
+  - scikit-image=0.19.2
+  - scipy=1.10.1
+  - pillow=10.0.0
+  - imageio=2.37.0
+  - opencv
+  - torch=2.6.0+cu124   # ставится через pip (см. ниже)
+  - torchvision=0.21.0+cu124
+  - torchaudio=2.6.0+cu124
+  - pip
+  - pip:
+      - pyiqa
+      - visdom
+      - dominate
+      - fsspec
+      - requests
+      - packaging
+      - jinja2
+      - jsonpatch
+      - jsonpointer
+      - markupsafe
+      - charset-normalizer
+      - idna
+      - urllib3
+

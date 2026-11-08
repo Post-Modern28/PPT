@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
         visuals = model.get_current_visuals()
         img_path = model.get_image_paths()
-        print('%04d: process image... %s' % (i, img_path))
+        #print('%04d: process image... %s' % (i, img_path))
         visualizer.save_images(webpage, visuals, img_path, aspect_ratio=opt.aspect_ratio)
 
     webpage.save()

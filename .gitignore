@@ -1,0 +1,14 @@
+
+# Игнорируем тяжелые чекпоинты, результаты и логи
+checkpoints/
+checkpoints_link
+results/
+compare/
+logs/
+
+# Игнорируем локальное виртуальное окружение
+ppt_venv/
+
+# Игнорируем кэш Python и среды разработки
+**/__pycache__/
+**/.ipynb_checkpoints/
